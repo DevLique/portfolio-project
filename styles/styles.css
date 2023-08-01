@@ -24,6 +24,38 @@ p{
   line-height: 1.7;
 }
 
+
+.content-contaner{
+  padding: 10px 20px;
+}
+nav {
+  padding: 40px 0;
+}
+
+nav a {
+  text-decoration:none;
+  color: white;
+  transition: all 150ms ease-in-out;
+  font-size: 14px;
+}
+nav a:hover{
+  color:white
+}
+
+nav li{
+  display: inline;
+  list-style:none;
+  margin-left: 15px;
+}
+
+nav li.active a{
+  color:hsl(347, 93%, 65%);;
+}
+nav ul{
+  padding: 0;
+  margin:0;
+}
+
 .header_avatar {
   display: inline;
   width: 3rem;
@@ -80,3 +112,24 @@ p{
   text-align: center;
 }
 
+.logo{
+  max-height: 40px;
+}
+
+.nav{
+  padding:20px 0;
+}
+.nav li{
+  display: inline;
+  list-style:none;
+
+}
+.nav li a {
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+}
+
+.active{
+  color:hwb(347 33% 2%)!important;
+}
